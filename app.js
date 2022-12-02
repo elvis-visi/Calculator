@@ -62,3 +62,21 @@ function operate(operator, num1, num2)
 
 operate('+',7,3);
 operate('+',3,3);
+
+
+const container = document.querySelector('#container');
+
+const div = document.createElement('div');
+div.style.display = "flex";
+
+//add buttons from 0-9, 4 per line
+
+for(let i = 0; i <= 9; i++)
+{
+
+    let button = document.createElement("button")
+    button.textContent = i;
+     div.appendChild(button);
+}
+
+container.appendChild(div);

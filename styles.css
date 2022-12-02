@@ -1,0 +1,10 @@
+#div
+{
+display: flex;
+    flex-wrap: wrap;
+  }
+
+
+ #button {
+        flex: 1;
+      }
